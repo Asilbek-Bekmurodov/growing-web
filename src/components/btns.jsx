@@ -15,12 +15,20 @@ export default class Btns extends Component {
         contentText: "Sing Up",
         padding: "1.2rem 1.6rem",
         contextColor: "#fff",
-      }
+      },
     ];
-    return <>
-      {buttonsData.map(item =>(
-        <Button bgColor ={item.bgColor} contentText = {item.contentText} padding= {item.padding} contextColor = {item.contextColor}/>
-      ))}
-    </>
+    return (
+      <>
+        {buttonsData.map((item, idx) => (
+          <Button
+            key={item.contentText}
+            bgColor={item.bgColor}
+            contentText={item.contentText}
+            padding={item.padding}
+            contextColor={item.contextColor}
+          />
+        ))}
+      </>
+    );
   }
 }

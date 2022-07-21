@@ -2,16 +2,11 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import Products from "./products-card";
 
-import card1 from "../assets/images/card1.png"
-import card2 from "../assets/images/card2.png"
-import card3 from "../assets/images/card3.png"
-import card4 from "../assets/images/card4.png"
 import Button from "./button";
 
 
 export default class Product extends Component {
   render() {
-    const { bgColor, content } = this.props;
     return (
       <Wrapper>
         <h2 className="product-title">Our Best Product</h2>

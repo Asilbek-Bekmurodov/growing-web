@@ -4,7 +4,7 @@ import Button from "./button";
 import aboutImg from "../assets/images/About.png";
 
 export default class About extends Component {
-  render() {
+  render() { 
     return (
       <Wrapper>
         <div className="img-section">

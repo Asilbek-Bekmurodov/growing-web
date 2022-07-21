@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import stars from "../assets/images/stars.png";
 import styled from "styled-components";
-import card1 from "../assets/images/card1.png";
 
 export default class Card extends Component {
   render() {
     const { cardName, bgColor, cardImg } = this.props;
     return (
       <Wrapper style={{ background: bgColor }}>
-        <img src={card1} alt="" />
+        <img src={cardImg} alt="" />
         <h4 className="card-name">{cardName}</h4>
         <img src={stars} alt="" />
         <p className="price">$50.00</p>

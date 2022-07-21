@@ -11,28 +11,29 @@ export default class Products extends Component {
       {
         cardName: "Outdoor Plant",
         bgColor: "#F0EBE6",
-        cardImg: { card1 },
+        cardImg: card1,
       },
       {
         cardName: "Monstera Plant",
         bgColor: "#F0EBE6",
-        cardImg: { card2 },
+        cardImg: card2,
       },
       {
         cardName: "Pottel Plant",
         bgColor: "#E2ECE4",
-        cardImg: { card3 },
+        cardImg: card3,
       },
       {
         cardName: "Indoor Plant",
         bgColor: "#E7EEED",
-        cardImg: { card4 },
+        cardImg: card4,
       },
     ];
     return (
       <>
         {cardsData.map((item) => (
           <Card
+            key={item.cardName}
             cardName={item.cardName}
             bgColor={item.bgColor}
             cardImg={item.cardImg}
