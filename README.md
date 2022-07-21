@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Deploying with Netlify [Website](https://lucky-sunflower-5ec5fc.netlify.app/).
+Deploying with Netlify [INTER WEBSITE](https://lucky-sunflower-5ec5fc.netlify.app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
