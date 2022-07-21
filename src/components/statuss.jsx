@@ -6,7 +6,7 @@ export default class Statuss extends Component {
     const statusData = [
       { counter: "2000+", title: "Delivery" },
       { counter: "1200+", title: "Customers" },
-      { counter: "1000+", title: "Customers" }
+      { counter: "1000+", title: "Customers" },
     ];
     return (
       <>

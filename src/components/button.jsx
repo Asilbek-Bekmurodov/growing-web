@@ -14,6 +14,8 @@ export default class Button extends Component {
   }
 }
 
+// -----------Style--------------
+
 const Btn = styled.button`
   font-family: "DM Sans";
   font-style: normal;
