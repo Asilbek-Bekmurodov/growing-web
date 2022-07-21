@@ -30,7 +30,7 @@ export default class Plants extends Component {
   }
 }
 
-// -----------Style--------------
+// ----------Style---------
 
 const Wrapper = styled.div`
   padding: 5.9rem 14.4rem 12.8rem;
